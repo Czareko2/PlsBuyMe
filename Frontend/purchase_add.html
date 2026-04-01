@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Dodaj zakup - PlsBuyMe</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="strona">
+  <div class="naglowek">
+    <div class="logo-sekcja">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR5UcGhBEfPDITwfQJhuHlqqM7iaqw5CIlLw&s" class="logo-obraz" alt="logo">
+      <div class="logo-tekst">PlsBuyMe</div>
+    </div>
+
+    <nav class="menu">
+      <a href="main.html" class="menu-link">Strona glowna</a>
+      <a href="products_list.html" class="menu-link">Produkty</a>
+      <a href="purchases_list.html" class="menu-link">Zakupy</a>
+      <a href="users_list.html" class="menu-link">Uzytkownicy</a>
+      <a href="admin.html" class="menu-link">Panel admina</a>
+    </nav>
+  </div>
+
+  <div class="tresc">
+    <h1 class="tytul">Kup produkt</h1>
+
+    <form class="formularz" id="add-purchase-form">
+      
+      <div class="formularz-grupa">
+        <label class="formularz-etykieta" for="user-select">Uzytkownik</label>
+        <select id="user-select" class="formularz-pole" required>
+          <option value="">-- Ładowanie listy... --</option>
+        </select>
+      </div>
+
+      <div class="formularz-grupa">
+        <label class="formularz-etykieta" for="product-select">Produkt</label>
+        <select id="product-select" class="formularz-pole" required>
+          <option value="">-- Ładowanie listy... --</option>
+        </select>
+      </div>
+
+      <div class="formularz-grupa">
+        <label class="formularz-etykieta" for="quantity">Ilosc</label>
+        <input id="quantity" type="number" min="1" class="formularz-pole" value="1" required>
+      </div>
+
+      <div class="formularz-grupa">
+        <label class="formularz-etykieta" for="status">Status</label>
+        <select id="status" class="formularz-pole">
+          <option value="Nowe">Nowe</option>
+          <option value="W realizacji">W realizacji</option>
+          <option value="Zrealizowane">Zrealizowane</option>
+        </select>
+      </div>
+
+      <div class="przyciski">
+        <button type="submit" class="przycisk">Kup</button>
+        <button type="button" class="przycisk-szary przycisk" onclick="history.back()">Powrot</button>
+      </div>
+    </form>
+  </div>
+
+  <div class="stopka">
+    PlsBuyMe
+  </div>
+</div>
+<script src="config.js"></script>
+<script src="products.js"></script>
+<script src="users.js"></script>
+<script src="purchases.js"></script>
+</body>
+</html>

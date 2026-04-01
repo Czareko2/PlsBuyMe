@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista uzytkownikow - PlsBuyMe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="strona">
+    <div class="naglowek">
+        <div class="logo-sekcja">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR5UcGhBEfPDITwfQJhuHlqqM7iaqw5CIlLw&s" class="logo-obraz" alt="logo">
+            <div class="logo-tekst">PlsBuyMe</div>
+        </div>
+
+        <nav class="menu">
+            <a href="main.html" class="menu-link">Strona glowna</a>
+            <a href="products_list.html" class="menu-link">Produkty</a>
+            <a href="purchases_list.html" class="menu-link">Zakupy</a>
+            <a href="users_list.html" class="menu-link">Uzytkownicy</a>
+            <a href="admin.html" class="menu-link">Panel admina</a>
+        </nav>
+    </div>
+
+    <div class="tresc">
+        <h1 class="tytul">Lista uzytkownikow</h1>
+
+        <table class="tabela">
+            <thead>
+            <tr>
+                <th>Login</th>
+                <th>Email</th>
+                <th>Rola</th>
+                <th>Akcje</th>
+            </tr>
+            </thead>
+            
+            <tbody id="tabela-uzytkownikow-body">
+                </tbody>
+        </table>
+
+        <div class="przyciski">
+            <a href="user_add.html" class="przycisk">Dodaj uzytkownika</a>
+            <a href="main.html" class="przycisk-szary przycisk">Powrot</a>
+        </div>
+    </div>
+
+    <div class="stopka">
+        PlsBuyMe
+    </div>
+</div>
+<script src="config.js"></script>
+<script src="products.js"></script>
+<script src="users.js"></script>
+<script src="purchases.js"></script>
+</body>
+</html>

@@ -1,0 +1,219 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f3f1f1;
+    color: #1b1b1b;
+}
+
+.strona {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.naglowek {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #171717;
+    color: #fbfbfb;
+    padding: 10px 20px;
+    border-radius: 6px;
+}
+
+.menu {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.menu-link {
+    text-decoration: none;
+    background: #474747;
+    color: #f8f8f8;
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.menu-link:hover {
+    background: #6e6d6d;
+}
+
+.tresc {
+    background: #fbf9f9;
+    margin-top: 15px;
+    padding: 20px;
+    border-radius: 6px;
+    border: 1px solid #dcdbdb;
+}
+
+.tytul {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.sekcja-podsumowanie {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.kafelek {
+    flex: 1 1 200px;
+    border: 1px solid #dcd8d8;
+    border-radius: 6px;
+    padding: 12px;
+    background: #eceaea;
+}
+
+.kafelek-tytul {
+    margin-top: 0;
+    font-size: 16px;
+}
+
+.lista-punktowana {
+    padding-left: 18px;
+}
+
+.przyciski {
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.przycisk {
+    display: inline-block;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    background: #1576d5;
+    color: #f3efef;
+    font-size: 14px;
+}
+
+.przycisk-szary {
+    background: #777676;
+}
+
+.przycisk-usun {
+    background: #e30e0e;
+}
+.przycisk-edytuj{
+    background-color: #19e419;
+}
+
+.tabela {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.tabela th,
+.tabela td {
+    border: 1px solid #e6e5e5;
+    padding: 8px;
+    text-align: left;
+    font-size: 14px;
+}
+
+.tabela th {
+    background: #e6e5e5;
+}
+
+.formularz {
+    max-width: 520px;
+}
+
+.formularz-grupa {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.formularz-etykieta {
+    font-weight: bold;
+    margin-bottom: 4px;
+    font-size: 14px;
+}
+
+.formularz-pole {
+    padding: 6px 8px;
+    border-radius: 4px;
+    border: 1px solid #dddcdc;
+    font-size: 14px;
+}
+
+.formularz-pole:disabled {
+    background: #edebeb;
+}
+
+.obraz-produktu {
+    max-width: 200px;
+    height: auto;
+    border-radius: 4px;
+    border: 1px solid #eceaea;
+    margin-top: 8px;
+}
+
+.stopka {
+    margin-top: 18px;
+    text-align: center;
+    font-size: 12px;
+    color: #616060;
+}
+.logo-sekcja {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo-obraz {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.logo-tekst {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.error-msg { 
+    color: #d9534f; 
+    font-size: 13px; 
+    margin-top: 5px; 
+    display: block; 
+    font-weight: bold;
+}
+
+.input-error { 
+    border: 1px solid red !important; 
+    background-color: #fff5f5; 
+}
+
+.tekst-srodek {
+    text-align: center;
+}
+
+.blad-tabeli {
+    color: red;
+    text-align: center;
+    font-weight: bold;
+}
+
+.brak-danych {
+    text-align: center;
+    color: gray;
+    font-style: italic;
+}
+
+.tekst-czerwony {
+    color: red;
+    font-weight: bold;
+}
