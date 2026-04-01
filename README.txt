@@ -1,3 +1,5 @@
+PROJETK ZREALIZOWANY NA ZALICZENIE Z UCZELNI PJATK
+
 1. Wykaz zaimplementowanych funkcjonalości:
 -Zarzadzanie produktami 
 -podgląd szczegółów, edycja, usuwanie, dodawanie produktów
